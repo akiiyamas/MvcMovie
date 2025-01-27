@@ -75,3 +75,22 @@ footer {
     border-top: 5px solid #ffc107;
 }
 
+/* gallery */
+.gallery {
+    margin-top: 40px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-items: center;
+}
+
+    .gallery-grid img {
+        width: 100px;
+        height: 150px;
+        object-fit: cover;
+        border: 2px solid #FFD700;
+        border-radius: 10px;
+    }
